@@ -4,7 +4,7 @@
     height: 100vh;
     overflow-y: auto;
     overflow-x: hidden;
-    perspective: 20px;
+    perspective: 15px;
     
 }
 
@@ -24,9 +24,9 @@
 
 
 .WELCOME:hover{
-    color: rgb(5, 79, 139);
+    color: rgb(140, 0, 255);
     font-size:10rem;
-    text-shadow: 0 0 10px black;
+    text-shadow: 0 0 10px rgb(2, 7, 255);
 
 }
 
@@ -43,6 +43,8 @@
     transform-style: preserve-3d;
     height: 100vh;
     z-index: -1;
+
+   
    
    
 }
@@ -61,11 +63,11 @@
 }
 
 .background{
-    transform: translateZ(-20px) scale(4);
+    transform: translateZ(-15px) scale(3);
 }
 
 .fore{
-    transform: translateZ(-15px) scale(2);
+    transform: translateZ(-10px) scale(2);
 }
 
 
@@ -81,9 +83,9 @@
     
   
     display: inline-block;
-    align-items: center;
+    
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 
 
     height: 80vh;
@@ -94,48 +96,28 @@
 }
 
 
-
-
 .jam{
-
-    position: relative;
-   height: 40vh;
    
-
-  
+    width: 20rem;
+    height: 20rem;
     
-    
-}
-
-
-.textContainer{
-   
-    
-    text-align: center;
 }
 
 .Jamier{
     position: relative;
-    text-align: center;
     color: rgb(255, 252, 252);
     text-shadow: 0 0 10px black;
+    top: 50px;
+    left: 30px;
     font-size: clamp(20px,8vw,50px);
-  
 }
 
-
-
-
-
 .aboutJ{
+    
     text-shadow: 0 0 10px black;
     font-size: clamp(10px,2vw,30px);
-    color: rgb(255, 252, 252);
+    color: rgb(255, 255, 255);
    text-align: center;
     position: relative;
     
 }
-
-
-
-
