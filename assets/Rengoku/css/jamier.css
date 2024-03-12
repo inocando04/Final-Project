@@ -106,16 +106,7 @@
 
 
 
-.jam{
 
-    position: relative;
-   height: 40vh;
-   
-
-  
-    
-    
-}
 
 
 .textContainer{
@@ -162,6 +153,17 @@
 }
 
 
+.jam{
+
+    position: relative;
+   height: 20rem;
+   
+
+  
+    
+    
+}
+
 
 
 @media (max-width:858){
@@ -169,7 +171,7 @@
 
        
         position: relative;
-        height: 40vh;
+        height: 15rem;
         
     }
 
@@ -182,7 +184,7 @@
 
        
         position: relative;
-        height: 35vh;
+        height: 13rem;
         
     }
 
@@ -194,37 +196,19 @@
 
        
         position: relative;
-        height: 35vh;
-        left: 30vh;
+        height: 13rem;
+        
         
     }
 
     .content{
         display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     }
 
    
 }
 
-
-@media (max-width:752px){
-    .jam{
-
-       
-        position: relative;
-        height: 35vh;
-        left: 27vh;
-        
-    }
-
-    .content{
-        display: flex;
-    flex-wrap: wrap;
-    }
-
-   
-}
 
 
 @media (max-width:638px){
@@ -232,14 +216,13 @@
 
        
         position: relative;
-        height: 35vh;
-        left: 22vh;
-        
+        height: 10rem;
+       
     }
 
     .content{
         display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     }
 
    
@@ -252,14 +235,14 @@
 
        
         position: relative;
-        height: 35vh;
-        left: 18vh;
+        height: 10rem;
+        
         
     }
 
     .content{
         display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     }
 
    
@@ -270,14 +253,14 @@
 
        
         position: relative;
-        height: 35vh;
-        left: 14vh;
+        height: 10rem;
+       
         
     }
 
     .content{
         display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     }
 
    
@@ -288,14 +271,14 @@
 
        
         position: relative;
-        height: 35vh;
-        left: 10vh;
+        height: 10rem;
+       
         
     }
 
     .content{
         display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     }
 
    
@@ -306,14 +289,14 @@
 
        
         position: relative;
-        height: 30;
-        left: 4vh;
+        height: 10rem;
+      
         
     }
 
     .content{
         display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     }
 
    
@@ -325,14 +308,15 @@
 
        
         position: relative;
-        height: 30vh;
-        left: 7vh;
+       
+      
         
     }
 
     .content{
         display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     }
 
    
@@ -343,8 +327,8 @@
 
        
         position: relative;
-        height: 30vh;
-        left: 4vh;
+      
+      
         
     }
 
@@ -362,8 +346,7 @@
 
        
         position: relative;
-        height: 30vh;
-        left: 2vh;
+       
         
     }
 
@@ -381,9 +364,7 @@
 
        
         position: relative;
-        height: 20vh;
-        left: 2vh;
-        
+       
     }
 
     .content{
@@ -399,9 +380,7 @@
 
        
         position: relative;
-        height: 15vh;
-        left: 2vh;
-        
+     
     }
 
     .content{
