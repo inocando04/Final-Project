@@ -357,6 +357,24 @@
    
 }
 
+@media (max-width:190px){
+    .jam{
+
+       
+        position: relative;
+        height: 15vh;
+        left: 2vh;
+        
+    }
+
+    .content{
+        display: flex;
+    flex-wrap: wrap;
+    }
+
+   
+}
+
 
 
 
