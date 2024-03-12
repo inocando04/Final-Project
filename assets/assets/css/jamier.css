@@ -1,0 +1,287 @@
+
+.wrapper{
+   
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    perspective: 20px;
+    
+}
+
+
+.WELCOME{
+    
+    
+    color: rgb(255, 255, 255);
+    z-index: 1;
+    font-size:7rem;
+    text-shadow: 0 0 10px black;
+    transition: .3s;
+}
+
+
+
+
+
+
+
+.WELCOME:hover{
+   
+    font-size:10rem;
+    color: #065fd4;
+    font-weight: 600;
+    text-shadow: 0 0 10px #3bb7ff,
+                    0 0 40px #3bb7ff,
+                    0 0 80px #3bb7ff,
+                    0 0 160px #3bb7ff,
+                    0 0 240px #3bb7ff;
+
+    -webkit-box-reflect: below -130px linear-gradient(transparent,rgb(0, 0, 0));
+    text-shadow: 0 0 10px rgb(0, 124, 226);
+
+}
+
+
+
+
+
+.homeHeader{
+    
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform-style: preserve-3d;
+    height: 100vh;
+    z-index: -1;
+   
+   
+}
+
+
+
+
+
+.fore ,
+.background{
+    
+    position: absolute;
+   
+    top:200px;
+    object-fit: cover;
+}
+
+.background{
+    transform: translateZ(-20px) scale(4);
+}
+
+.fore{
+    transform: translateZ(-15px) scale(2);
+}
+
+
+
+
+
+.content{
+    position: relative;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.13), rgba(255, 255, 255, 0.212));
+    border:1px solid rgba(4, 142, 255, 0.18); box-shadow: 0 10px 100px 0 rgba(0, 0, 0, 0.37);
+    border-radius: 20px;
+    margin: 5%;
+    
+    justify-content: center;
+    
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+
+
+    height: 80vh;
+    transition: .3s;
+    object-fit: hidden;
+
+   
+}
+
+
+
+
+
+
+
+.textContainer{
+    width: 100%;
+   
+    text-align: center;
+}
+
+
+
+
+
+
+
+.Jamier{
+    position: relative;
+    text-align: center;
+    color: rgb(255, 252, 252);
+    text-shadow: 0 0 10px black;
+    font-size: clamp(20px,8vw,50px);
+  
+}
+
+
+
+
+
+.aboutJ{
+    text-shadow: 0 0 10px black;
+    font-size: clamp(5px,5vw,25px);
+    color: rgb(255, 252, 252);
+   text-align: center;
+    position: relative;
+    
+}
+
+
+
+
+
+
+.Download{
+   
+   
+   width: 100%;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    
+    
+}
+
+
+
+
+
+
+
+
+.FB{
+    font-size: clamp(5px,5vw,25px);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+
+
+.btn{
+    
+    position: relative;
+    text-decoration: none;
+  
+    display: flex;
+     color: rgb(8, 142, 252);
+     background-color: rgb(244, 244, 255);
+     border-radius: 30px;
+     font-size: clamp(5px,5vw,25px);
+     transition: .3s;
+    
+ 
+    
+    }
+
+
+
+    .btn:hover{
+        color: rgb(255, 255, 255);
+        background-color: rgb(11, 129, 240);
+    
+    }
+
+
+
+
+
+
+
+
+
+  
+    
+    .fa-brands.fa-facebook-f{
+        font-size: clamp(5px,5vw,25px);
+        position: relative;
+        
+        justify-content: center;
+        color: white;
+        transition: .3s;
+    }
+
+
+
+    .fa-brands.fa-facebook-f:hover{
+        font-size: 1.2rem;
+        
+        color: #05acee;
+        
+    }
+    
+    
+    
+    .fa-brands.fa-instagram{
+        font-size: clamp(5px,5vw,25px);
+        color: white;
+        transition: .3s;
+    }
+    
+    .fa-brands.fa-instagram:hover{
+       
+        font-size: 1.2rem;
+        border-radius: 15px;
+        background: #f09433; 
+        background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+        background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+        background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+       
+    }
+
+    span{
+        color: #ffffff;
+        text-shadow: 0 0 50px black;
+    }
+
+
+    .font{
+        text-transform: uppercase;
+        color: #104ec2;
+        -webkit-box-reflect: below 1px linear-gradient(transparent,#0004);
+        line-height: 0.70rem;
+        outline: none;
+        animation: animate 3s linear infinite;
+        transition: .3s;
+    }
+
+    @keyframes animate{
+
+        0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%
+        {
+
+            color: #0e3742;
+            box-shadow: none;
+        }
+        18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%{
+            color:#fff;
+            box-shadow: 0 0 10px #03bcf4,
+            0 0 20px #03bcf4,
+            0 0 40px #03bcf4,
+            0 0 80px #03bcf4,
+            0 0 160px #03bcf4;
+          
+        }
+        
+
+
+    }
