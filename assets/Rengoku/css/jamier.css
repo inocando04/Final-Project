@@ -43,6 +43,8 @@
     transform-style: preserve-3d;
     height: 100vh;
     z-index: -1;
+
+   
    
    
 }
@@ -111,9 +113,10 @@
 }
 
 .aboutJ{
+    
     text-shadow: 0 0 10px black;
     font-size: clamp(10px,2vw,30px);
-    color: rgb(255, 252, 252);
+    color: rgb(255, 255, 255);
    text-align: center;
     position: relative;
     

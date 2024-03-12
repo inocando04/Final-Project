@@ -81,9 +81,9 @@
     
   
     display: inline-block;
-    
+    align-items: center;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 
 
     height: 80vh;
@@ -94,21 +94,38 @@
 }
 
 
+
+
 .jam{
+
+    position: relative;
+   height: 40vh;
    
-    width: 20rem;
-    height: 20rem;
+
+  
     
+    
+}
+
+
+.textContainer{
+   
+    
+    text-align: center;
 }
 
 .Jamier{
     position: relative;
+    text-align: center;
     color: rgb(255, 252, 252);
     text-shadow: 0 0 10px black;
-    top: 50px;
-    left: 30px;
     font-size: clamp(20px,8vw,50px);
+  
 }
+
+
+
+
 
 .aboutJ{
     text-shadow: 0 0 10px black;
@@ -118,69 +135,203 @@
     position: relative;
     
 }
-@media (max-width:940px){
-    .Jamier{
-        position: relative;
+
+
+
+
+@media (max-width:858){
+    .jam{
+
        
-        left: 0;
-    }
-}
-
-@media (max-width:910px){
-    .Jamier{
         position: relative;
-        top: 0;
-        left: 150px;
-    }
-}
-
-@media (max-width:908px){
-    .Jamier{
-        position: relative;
-        left: 0;
-    }
-
-    .jam{
-        position: relative;
-        left: 0;
-    }
-}
-
-@media (max-width:718px){
-    .Jamier{
-        position: relative;
-        left: 0;
-    }
-    .jam{
-        position: relative;
-        left: 0;
-    }
-}
-
-
-
-@media (max-width:456px){
-    .Jamier{
-        left: 10px;
-        position: relative;
+        height: 40vh;
         
     }
+
+   
 }
 
-@media (max-width:358px){
+
+@media (max-width:866px){
     .jam{
-    
-        width: 10rem;
-        height: 10rem;
+
        
+        position: relative;
+        height: 35vh;
+        
     }
+
+   
 }
 
-@media (max-width:182px){
+@media (max-width:752px){
     .jam{
-    
-        width: 8rem;
-        height: 8rem;
+
        
+        position: relative;
+        height: 35vh;
+        left: 30vh;
+        
     }
+
+    .content{
+        display: flex;
+    flex-wrap: wrap;
+    }
+
+   
 }
+
+
+@media (max-width:752px){
+    .jam{
+
+       
+        position: relative;
+        height: 35vh;
+        left: 27vh;
+        
+    }
+
+    .content{
+        display: flex;
+    flex-wrap: wrap;
+    }
+
+   
+}
+
+
+@media (max-width:638px){
+    .jam{
+
+       
+        position: relative;
+        height: 35vh;
+        left: 22vh;
+        
+    }
+
+    .content{
+        display: flex;
+    flex-wrap: wrap;
+    }
+
+   
+}
+
+
+
+@media (max-width:580px){
+    .jam{
+
+       
+        position: relative;
+        height: 35vh;
+        left: 18vh;
+        
+    }
+
+    .content{
+        display: flex;
+    flex-wrap: wrap;
+    }
+
+   
+}
+
+@media (max-width:498px){
+    .jam{
+
+       
+        position: relative;
+        height: 35vh;
+        left: 14vh;
+        
+    }
+
+    .content{
+        display: flex;
+    flex-wrap: wrap;
+    }
+
+   
+}
+
+@media (max-width:422px){
+    .jam{
+
+       
+        position: relative;
+        height: 35vh;
+        left: 10vh;
+        
+    }
+
+    .content{
+        display: flex;
+    flex-wrap: wrap;
+    }
+
+   
+}
+
+
+@media (max-width:368px){
+    .jam{
+
+       
+        position: relative;
+        height: 30vh;
+        left: 7vh;
+        
+    }
+
+    .content{
+        display: flex;
+    flex-wrap: wrap;
+    }
+
+   
+}
+
+@media (max-width:300px){
+    .jam{
+
+       
+        position: relative;
+        height: 30vh;
+        left: 4vh;
+        
+    }
+
+    .content{
+        display: flex;
+    flex-wrap: wrap;
+    }
+
+   
+}
+
+
+@media (max-width:230px){
+    .jam{
+
+       
+        position: relative;
+        height: 20vh;
+        left: 4vh;
+        
+    }
+
+    .content{
+        display: flex;
+    flex-wrap: wrap;
+    }
+
+   
+}
+
+
+
+
