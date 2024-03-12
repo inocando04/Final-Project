@@ -81,7 +81,7 @@
     border-radius: 20px;
     margin: 5%;
     
-  
+    justify-content: center;
     display: inline-block;
     
     display: flex;
@@ -120,4 +120,91 @@
    text-align: center;
     position: relative;
     
+}
+
+
+.contactPanel{
+    display: flex;
+    justify-content: center;
+    position: relative;
+   
+   
+    align-items: center;
+    
+    
+   
+    
+}
+
+.contact-email{
+    position: relative;
+   
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    gap: 20px;
+}
+
+.contact-email h2{
+    font-weight: 600;
+    color: #ffeb3b;
+    font-weight: 600;
+    text-shadow: 0 0 10px #ff8c3b,
+                    0 0 40px #ff8c3b,
+                    0 0 80px #ff8c3b,
+                    0 0 160px #ff8c3b,
+                    0 0 240px #ff8c3b;
+
+    -webkit-box-reflect: below -70px linear-gradient(transparent,#0008);
+    text-shadow: 0 0 10px rgb(252, 81, 2);
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+
+.contact-email hr{
+    border: none;
+    width: 120px;
+    height: 5px;
+    background-color: #000000;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.contact-inputs{
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #666;
+    padding-left: 25px;
+    border-radius: 50px;
+}
+
+.contact-email textarea{
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px;
+
+}
+
+
+
+.contact-inputs:focus{
+        border: 2px solid  #ffbb00;
+    }
+
+.contact-email .SubmitBtn{
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16x;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    gap: 10px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(270deg,#1568d4,#0018ee);
+    cursor: pointer;
+
 }
