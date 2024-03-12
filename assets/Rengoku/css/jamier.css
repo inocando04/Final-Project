@@ -301,6 +301,24 @@
    
 }
 
+@media (max-width:412px){
+    .jam{
+
+       
+        position: relative;
+        height: 30;
+        left: 4vh;
+        
+    }
+
+    .content{
+        display: flex;
+    flex-wrap: wrap;
+    }
+
+   
+}
+
 
 @media (max-width:368px){
     .jam{
@@ -339,13 +357,32 @@
 }
 
 
+@media (max-width:271px){
+    .jam{
+
+       
+        position: relative;
+        height: 30vh;
+        left: 2vh;
+        
+    }
+
+    .content{
+        display: flex;
+    flex-wrap: wrap;
+    }
+
+   
+}
+
+
 @media (max-width:230px){
     .jam{
 
        
         position: relative;
         height: 20vh;
-        left: 4vh;
+        left: 2vh;
         
     }
 
